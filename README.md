@@ -1,4 +1,4 @@
-# Load GPT2 in the browser with TensorFlow.js
+# GPT-2 in the browser with TensorFlow.js
 This repository contains a demo of loading a GPT-2 model in the browser with TensorFlow.js. 
 The model weights are loaded from [Hugging Face](https://huggingface.co/), converted in real-time and then cached in IndexedDB.
 
