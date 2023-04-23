@@ -1,0 +1,25 @@
+{
+  "name": "@jseeio/gpt2-tfjs",
+  "version": "0.0.1",
+  "description": "GPT2 with Tensorflow.js",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anton Zemlyansky",
+  "license": "MIT",
+  "homepage": "https://jsee.io/gpt2-tfjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jseeio/gpt2-tfjs.git"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.4.0",
+    "gpt-tfjs": "^0.0.3",
+    "gpt-tokenizer": "^1.0.3",
+    "h5wasm": "^0.4.11",
+    "stats.js": "^0.17.0"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "model": {
+    "name": "gpt2",
+    "type": "function",
+    "url": "https://cdn.jsdelivr.net/npm/@jseeio/gpt2-tfjs@latest/bundle.js",
+		"worker": false,
+    "autorun": false
+  },
+	"design": {
+		"grid": [4, 6]
+	},
+  "inputs": [
+    { "name": "model", "type": "select", "options": ["gpt2", "gpt2-medium", "gpt2-large"], "default": "gpt2"},
+    { "name": "maxLength", "type": "int", "default": 50},
+    { "name": "temperature", "type": "float", "default": 1, "min": 0, "max": 1},
+    { "name": "input", "type": "text", "default": "The quick brown fox jumps over the lazy dog." }
+  ],
+  "outputs": [
+    {
+      "name": "output",
+      "type": "text"
+    }
+  ]
+}
+

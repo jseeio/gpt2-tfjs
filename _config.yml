@@ -1,0 +1,20 @@
+title: "hash"
+
+minima:
+  social_links:
+    twitter: jseeio
+    facebook: jseeio
+    github: jseeio/hash
+
+remote_theme: "jseeio/minima"
+
+logo_footer:
+  src: https://jsee.io/design/jsee_logo.svg
+  href: https://jsee.io/
+  width: 50
+
+google_analytics: "G-SBCKCNFKBF"
+
+jsee_version: "0.2"
+jsee_runtime: true
+jsee_schema: "schema.json"
